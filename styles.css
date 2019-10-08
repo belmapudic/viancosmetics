@@ -1,0 +1,110 @@
+body {
+	font-size: 16px;										/*Schriftgrösse*/
+	font-family: Verdana, Arial, Helvetica, sans-serif; 	/*Schriftart*/
+	color: white;											/*Schriftfarbe*/
+	background-color: black;								/*Hintergrundfarbe*/
+	text-align: center;
+	}
+
+h1 { 
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+}
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+	background-color: white;
+}
+img.augen {
+	display: flex;
+	margin-left: auto;		
+    margin-right: auto;
+	width: 650px;			/*Breite*/
+	height: 300px;			/*Hohe*/
+}
+img.main {
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+	width: 350px;
+	height: 180px;
+}
+.navigation {
+    width: 100%;			/*Breite ganze Seite*/
+    padding: 20px;			/*Schriftgrösse*/
+	margin: auto;
+	border-bottom: white 5px solid;
+	text-align: center;
+}
+.navigation li {
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px 50px;
+	font-size: 16px;
+}
+.main {
+	text-align: left;
+	margin: 0 auto;
+	width: 650px;
+}
+.cookie {
+	font-size: 13px;
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)  { 
+	.navigation li {
+		float: none;
+		width: 100%;
+	 }
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) { 
+	.main {
+		width: 600px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) { 
+	img.augen {
+		width: 600px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)  { 
+	img.main {
+		width: 400px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)  { 
+	#myCanvas {
+		width: 600px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)  { 
+	.cookie {
+		font-size: 8px;
+	}
+}
