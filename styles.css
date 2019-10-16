@@ -1,4 +1,4 @@
-body {
+ body {
 	font-size: 16px;										/*Schriftgrösse*/
 	font-family: Verdana, Arial, Helvetica, sans-serif; 	/*Schriftart*/
 	color: white;											/*Schriftfarbe*/
@@ -15,95 +15,77 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 300px;
+    height: 20em;
 	background-color: white;
 }
 img.augen {
 	display: flex;
 	margin-left: auto;		
     margin-right: auto;
-	width: 650px;			/*Breite*/
-	height: 300px;			/*Hohe*/
+	width: 50em;			/*Breite*/
+	height: 20em;			/*Hohe*/
 }
 img.main {
 	display: flex;
 	margin-left: auto;
     margin-right: auto;
-	width: 350px;
-	height: 180px;
+	width: 17em;
+	height: 7em;
 }
-.navigation {
-    width: 100%;			/*Breite ganze Seite*/
-    padding: 20px;			/*Schriftgrösse*/
+.navigation {			/*Breite ganze Seite*/
+    list-style: none;
+	padding: 20px;			/*Schriftgrösse*/
 	margin: auto;
 	border-bottom: white 5px solid;
 	text-align: center;
 }
 .navigation li {
-    display: inline;
-    list-style: none;
     margin-right: 10px;
     padding: 5px 50px;
 	font-size: 16px;
+	display: inline;
+}
+.navigation li a{
+	text-decoration: none;
 }
 .main {
-	text-align: left;
+	text-align: center;
 	margin: 0 auto;
-	width: 650px;
 }
 .cookie {
 	font-size: 13px;
 }
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)  { 
+@media screen and (max-width: 800px) {
 	.navigation li {
-		float: none;
-		width: 100%;
-	 }
+		display: block;
+	} 
 }
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) { 
+@media screen and (max-width: 800px) {
 	.main {
-		width: 600px;
+		text-align: center;
 	}
 }
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) { 
+@media screen and (max-width: 800px) {
 	img.augen {
-		width: 600px;
+		width: 50em;
 	}
 }
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)  { 
+@media screen and (max-width: 800px)  { 
 	img.main {
-		width: 400px;
+		width: 15em;
 	}
 }
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)  { 
+@media screen and (max-width: 800px)  {  
 	#myCanvas {
-		width: 600px;
+		width: 30em;
 	}
 }
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)  { 
+@media screen and (max-width: 800px)  {  
 	.cookie {
 		font-size: 8px;
 	}
