@@ -1,5 +1,5 @@
  body {
-	font-size: 16px;										/*Schriftgrösse*/
+	font-size: 23px;										/*Schriftgrösse*/
 	font-family: Verdana, Arial, Helvetica, sans-serif; 	/*Schriftart*/
 	color: white;											/*Schriftfarbe*/
 	background-color: black;								/*Hintergrundfarbe*/
@@ -42,7 +42,7 @@ img.main {
 .navigation li {
     margin-right: 10px;
     padding: 5px 50px;
-	font-size: 16px;
+	font-size: 30px;
 	display: inline;
 }
 .navigation li a{
@@ -55,6 +55,9 @@ img.main {
 .cookie {
 	font-size: 13px;
 }
+#myCanvas {
+		width: 30em;
+	}
 @media screen and (max-width: 800px) {
 	.navigation li {
 		display: block;
