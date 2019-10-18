@@ -1,17 +1,18 @@
  body {
-	font-size: 23px;										/*Schriftgrösse*/
-	font-family: Verdana, Arial, Helvetica, sans-serif; 	/*Schriftart*/
-	color: white;											/*Schriftfarbe*/
-	background-color: black;								/*Hintergrundfarbe*/
+	font-size: 20px;										
+	font-family: Verdana, Arial, Helvetica, sans-serif; 	
+	color: white;											
+	background-color: black;								
 	text-align: center;
-	}
-
+}
 h1 { 
-	font-size: 40px;
+	font-size: 35px;
 	display: flex;
 	justify-content: center;
 }
-
+h2 { 
+	font-size: 25px;
+}
 img.main {
 	display: flex;
 	margin-left: auto;
@@ -19,9 +20,8 @@ img.main {
 	width: 17em;
 	height: 7em;
 }
-.navigation {			/*Breite ganze Seite*/
-    list-style: none;
-	padding: 20px;			/*Schriftgrösse*/
+.navigation {			
+	padding: 20px;		
 	margin: auto;
 	border-top: white 5px solid;
 	border-bottom: white 5px solid;
@@ -29,8 +29,8 @@ img.main {
 }
 .navigation li {
     margin-right: 10px;
-    padding: 5px 50px;
-	font-size: 30px;
+    padding: 20px;
+	font-size: 25px;
 	display: inline;
 }
 .navigation li a{
@@ -42,19 +42,17 @@ img.main {
 .cookie {
 	font-size: 13px;
 }
-
 @media screen and (max-width: 1024px) {
 	.navigation li {
 		display: block;
+		padding: 5px;
 	} 
 }
-
 @media screen and (max-width: 1024px) {
 	.main {
 		font-size: 10px;
 	}
 }
-
 @media screen and (max-width: 1024px)  {  
 	.cookie {
 		font-size: 8px;

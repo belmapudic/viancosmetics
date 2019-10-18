@@ -42,11 +42,5 @@ function myCanvas(){
 	myCanvas.lineTo(360,170);
 	myCanvas.stroke();
 }
-function ajax() {
-	var img = new Image();
-	img.src = 'http:/...';
-	var tag = document.getElementById("bild");
-	tag.src = img.src;
-	tag.height = img.height;
-	tag.width = img.width;
-}
+
+

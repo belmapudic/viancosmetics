@@ -9,13 +9,17 @@
 	
 	<link rel="stylesheet" href="styles.css">
 	<script src="javascript.js"></script>
-	
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+			$('#my_image').attr('src','https://i.otto.de/i/otto/33307924?$responsive_ft2$');
+			});
+		});
+	</script>
 </head>
 <body>
 	<h1 id="anfangstext">VIAN COSMETICS</h1>
-	<header>
-		<img class="augen" src="header2.jpg" alt="">
-	</header>
 	<nav>
 		<ul class="navigation">
 		  <li><a href="#part_1">HOME</a></li>
@@ -70,12 +74,18 @@
 			+41 123 456 78 90 
 		</address> 
 		<br>
+		<img id="my_image" src="https://src.discounto.de/pics/Angebote/2017-09/2212797/3296499_Leinwandbild-Feder-schwarz-weiss_xxl.jpg" width="300" height="300" alt="Feder und Frau"/> 
+		<br>
+		<button>Click me</button>
+		<br> 
 		<p style="text-align: right;">
 			<a href="#anfangstext">zum Anfang der Seite</a>
 		</p>
 	</section>
+		<br>
 </div>
-<br/>
+<br>
+<br>
 <div class="cookie">
 	<script>	
 		var lastvisit=new Object()
