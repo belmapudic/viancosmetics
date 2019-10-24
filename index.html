@@ -13,7 +13,12 @@
 	<script>
 		$(document).ready(function(){
 			$("button").click(function(){
-			$('#my_image').attr('src','https://i.otto.de/i/otto/33307924?$responsive_ft2$');
+			
+			if ($('#my_image').attr('src')=='https://i.otto.de/i/otto/33307924?$responsive_ft2$'){
+				$('#my_image').attr('src','https://src.discounto.de/pics/Angebote/2017-09/2212797/3296499_Leinwandbild-Feder-schwarz-weiss_xxl.jpg');
+			}else{
+				$('#my_image').attr('src','https://i.otto.de/i/otto/33307924?$responsive_ft2$');
+				}
 			});
 		});
 	</script>
